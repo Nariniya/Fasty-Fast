@@ -4,8 +4,6 @@ user-select:none;
 overflow-x:hidden;
 opacity: 1;
 background-size:contain;
-
-
 }
 .top{
     width: 101.23%;
@@ -218,6 +216,23 @@ position: relative;
         border-color:#01ff6b;
     }
    }
+   
+   @keyframes myAnimee{
+    from{
+        background-color: #f06c6c;
+        color: #01ff6b;
+        border-color: #01ff6b;
+        font-size: 1000px;
+    }
+    to{
+        background-color:#000000;
+        color: #e5ff00;
+        border-color: #bbc4be;
+        font-size: 25px;
+        width: 100px;
+        height: 100px;
+    }
+   }
 .t0{
     background-size: cover;
     width: 220px;
@@ -273,4 +288,35 @@ margin-left: 1%;
 margin-top: 0;
 margin-left: 5%;
 bottom: 28px;
+}
+.f{
+    color:#000000;
+    background-color: #f3ebeb;
+    text-align: right;
+    margin-right: 0%;
+    font-size: 30px;
+    text-align: center;
+    font-family:cursive;
+    margin-top: -4px;
+    -webkit-text-stroke-color: #000000;
+    -webkit-text-stroke-width: 0px;
+}
+.f1{
+    color:#000000;
+    background-color: #f3ebeb;
+    text-align: right;
+    margin-right: 0%;
+    font-size: 30px;
+    text-align: center;
+    font-family:cursive;
+    margin-top: -4px;
+    -webkit-text-stroke-color: #000000;
+    -webkit-text-stroke-width: 0px;
+}
+.tovar1{
+    width: 85%;
+    text-align: center;
+    background-color: #ffffff;
+    margin-left: 2%;
+    padding: 40px;
 }
